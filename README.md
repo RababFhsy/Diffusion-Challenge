@@ -37,10 +37,6 @@ This line downloads the train_dreambooth.py script from a GitHub repository. The
   %pip install -qq git+https://github.com/ShivamShrirao/diffusers
 
 ```
-This line installs the diffusers package from the specified GitHub repository using pip. The -qq flag is used to suppress the output of the pip command:
-  ```bash
-
-```
 This line installs the triton package using pip. The -q flag is used to suppress the output of the pip command. The -U flag is used to upgrade the package to the latest version, and --pre is used to install pre-release versions if available:
  ```bash
 %pip install -q -U --pre triton
