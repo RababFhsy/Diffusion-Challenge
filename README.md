@@ -4,17 +4,7 @@
     <img src="./docs/source/en/imgs/diffusers_library.jpg" width="400"/>
     <br>
 <p>
-<p align="center">
-    <a href="https://github.com/huggingface/diffusers/blob/main/LICENSE">
-        <img alt="GitHub" src="https://img.shields.io/github/license/huggingface/datasets.svg?color=blue">
-    </a>
-    <a href="https://github.com/huggingface/diffusers/releases">
-        <img alt="GitHub release" src="https://img.shields.io/github/release/huggingface/diffusers.svg">
-    </a>
-    <a href="CODE_OF_CONDUCT.md">
-        <img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg">
-    </a>
-</p>
+
 
 🤗The Moroccan Djellaba is a symbolic element of the Moroccan Culture. It remains deeply rooted in the daily life of Moroccan women. She wears it during traditional celebrations and even in their daily routines. However, she faces constraints when choosing a Djellaba and staying in trend.To make this easier for them, we proposed a solution: "Vestiaire_Meghribi_Intelligent" based basically on Stable Diffusion.
 # Features
@@ -94,6 +84,10 @@ This command installs the accelerate package using the ! syntax, which is used s
  ```bash
 !pip install accelerate
 ```
+# Credentials    
+    We are extremely thankful for the guidance and support provided by the AI Expertsmonitors, organizers and all the staff throughout the hackathon. Your hard work and dedication ensured that the event ran smoothly, and your expertise and insights were invaluable in helping our team overcome the challenges we faced.
+
+We would also like to extend my appreciation to all the sponsors who helped make this event possible. Your contributions were critical in ensuring that participants had access to the necessary resources and technology to develop their projects.
 
 
 
