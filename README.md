@@ -18,6 +18,7 @@
 
 🤗The Moroccan Djellaba is a symbolic element of the Moroccan Culture. It remains deeply rooted in the daily life of Moroccan women. She wears it during traditional celebrations and even in their daily routines. However, she faces constraints when choosing a Djellaba and staying in trend.To make this easier for them, we proposed a solution: "Vestiaire_Meghribi_Intelligent" based basically on Stable Diffusion.
 # Features
+
 ## Stable diffussion
 In our project, we used stable diffusion to personalize the text-to-image model for Moroccan dress products used for fashion, specifically the Djellaba. By leveraging stable diffusion, we were able to enhance the model's ability to generate images that accurately reflect the unique features of the Djellaba, including its design, color, and cultural significance.
 ## DataSet
@@ -30,6 +31,11 @@ Training process: During the training process, the stable diffusion model is rep
 we used inference to evaluate the model's accuracy on a validation set and made adjustments to the model based on the evaluation results. Despite having limited training data, we were able to achieve high accuracy on the djellaba recognition task, and the model was able to provide accurate size information based on the input image.
 ## ControlNet onepose
 During our project, we utilized the ControlNet OnePose deep learning architecture to estimate the pose of a model in a given image. ControlNet OnePose is a specific implementation of the ControlNet architecture that is designed for single-pose estimation. Using OnePose, we were able to predict the 2D keypoint locations of the model in the image, as well as the corresponding 3D keypoint locations in a predefined coordinate system. By estimating the model's pose, we were able to extract important features such as the model's position, orientation, and body proportions from the image.
+# Problems
+### Data preparation:
+This typically involves collecting and cleaning a large dataset of images that will be used to train the model.
+### hardware environment:
+The problem of limited resources concerning our hardware environment, especially GPU and RAM, refers to the constraints and limitations we faced when it comes to the available computational power and memory in our hardware setup.
 # Installation
 We highly recommend installing🤗the following dependencies and scripts to successfully run DreamBooth with the Diffusers library. These installations will provide you with the necessary tools to work with control nets, diffusion models, transformers, and accelerate the training and inference processes during running this project.
 
