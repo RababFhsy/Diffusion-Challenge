@@ -1,9 +1,5 @@
 # Diffusion-Challenge
-<p align="center">
-    <br>
-    <img src="./docs/source/en/imgs/diffusers_library.jpg" width="400"/>
-    <br>
-<p>
+
 
 
 🤗The Moroccan Djellaba is a symbolic element of the Moroccan Culture. It remains deeply rooted in the daily life of Moroccan women. She wears it during traditional celebrations and even in their daily routines. However, she faces constraints when choosing a Djellaba and staying in trend.To make this easier for them, we proposed a solution: "Vestiaire_Meghribi_Intelligent" based basically on Stable Diffusion.
@@ -85,10 +81,11 @@ This command installs the accelerate package using the ! syntax, which is used s
 !pip install accelerate
 ```
 # Credentials    
-    We are extremely thankful for the guidance and support provided by the AI Expertsmonitors, organizers and all the staff throughout the hackathon. Your hard work and dedication ensured that the event ran smoothly, and your expertise and insights were invaluable in helping our team overcome the challenges we faced.
+We are extremely grateful for the guidance and support provided by the AI Experts monitors, organizers, and all the staff of Math&Maroc and 1337AI club throughout the hackathon. Your supervision and dedication were instrumental in ensuring the smooth running of the event, and your expertise and insights were invaluable in helping our team overcome the challenges we encountered.
 
-We would also like to extend my appreciation to all the sponsors who helped make this event possible. Your contributions were critical in ensuring that participants had access to the necessary resources and technology to develop their projects.
+We would like to express our sincere appreciation to all the sponsors who made this event possible. Your contributions played a vital role in providing participants with the necessary resources and technology to develop their projects. Your support was crucial in fostering innovation and enabling participants to showcase their skills and ideas.
 
+We would like to take this opportunity to thank you once again for your unwavering support and commitment. We are honored to have been a part of this incredible event and we are excited about the potential for future collaborations and endeavors.
 
 
 
