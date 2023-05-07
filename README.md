@@ -16,8 +16,21 @@
     </a>
 </p>
 
-🤗 Diffusers is the go-to library for state-of-the-art pretrained diffusion models for generating images, audio, and even 3D structures of molecules. Whether you're looking for a simple inference solution or training your own diffusion models, 🤗 Diffusers is a modular toolbox that supports both. Our library is designed with a focus on [usability over performance](https://huggingface.co/docs/diffusers/conceptual/philosophy#usability-over-performance), [simple over easy](https://huggingface.co/docs/diffusers/conceptual/philosophy#simple-over-easy), and [customizability over abstractions](https://huggingface.co/docs/diffusers/conceptual/philosophy#tweakable-contributorfriendly-over-abstraction).
-## Installation
+🤗The Moroccan Djellaba is a symbolic element of the Moroccan Culture. It remains deeply rooted in the daily life of Moroccan women. She wears it during traditional celebrations and even in their daily routines. However, she faces constraints when choosing a Djellaba and staying in trend.To make this easier for them, we proposed a solution: "Vestiaire_Meghribi_Intelligent" based basically on Stable Diffusion.
+# Features
+## Stable diffussion
+In our project, we used stable diffusion to personalize the text-to-image model for Moroccan dress products used for fashion, specifically the Djellaba. By leveraging stable diffusion, we were able to enhance the model's ability to generate images that accurately reflect the unique features of the Djellaba, including its design, color, and cultural significance.
+## DataSet
+In this project  we gathered our dataset by scraping a fashion website named Diamontic.in this case we used web scraping to collect images and related information of fashion products from the Diamontic website. This dataset will be used for training and testing our machine learning models to classify fashion products based on their attributes such as color, pattern, and style.
+## FineTuning
+In our project, we used FineTuning to adapt a pre-trained convolutional neural network for a new fashion classification task. Our goal was to train the model to recognize a traditional Moroccan dress, the djellaba, based on a given input image and provide specific size information. We collected a dataset of images of djellabas in various sizes and used transfer learning to fine-tune a pre-trained model to recognize the unique features of the garment. During the fine-tuning process.
+## Training
+Training process: During the training process, the stable diffusion model is repeatedly presented with batches of training data, and the model's weights are updated to minimize the loss function. The training process typically involves a large number of iterations, with each iteration taking a batch of input images and generating corresponding output images.
+## Inference
+we used inference to evaluate the model's accuracy on a validation set and made adjustments to the model based on the evaluation results. Despite having limited training data, we were able to achieve high accuracy on the djellaba recognition task, and the model was able to provide accurate size information based on the input image.
+## ControlNet onepose
+During our project, we utilized the ControlNet OnePose deep learning architecture to estimate the pose of a model in a given image. ControlNet OnePose is a specific implementation of the ControlNet architecture that is designed for single-pose estimation. Using OnePose, we were able to predict the 2D keypoint locations of the model in the image, as well as the corresponding 3D keypoint locations in a predefined coordinate system. By estimating the model's pose, we were able to extract important features such as the model's position, orientation, and body proportions from the image.
+# Installation
 We highly recommend installing🤗the following dependencies and scripts to successfully run DreamBooth with the Diffusers library. These installations will provide you with the necessary tools to work with control nets, diffusion models, transformers, and accelerate the training and inference processes during running this project.
 
  This line downloads the train_dreambooth.py script from a GitHub repository. The -q flag is used to suppress the output of the wget command.
@@ -75,6 +88,8 @@ This command installs the accelerate package using the ! syntax, which is used s
  ```bash
 !pip install accelerate
 ```
+
+
 
 
  
